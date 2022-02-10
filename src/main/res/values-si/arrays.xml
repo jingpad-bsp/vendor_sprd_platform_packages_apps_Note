@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<string-array name="delete_folder_entries">
+<item>"ෆෝල්ඩරය මැකීම පමණයි"</item>
+<item>"ෆෝල්ඩරය සහ එහි ඇති සටහන් සියල්ල මකන්න"</item>
+</string-array>
+</resources>

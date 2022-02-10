@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<string-array name="delete_folder_entries">
+<item>"Eliminar solo la carpeta"</item>
+<item>"Elimine la carpeta y todas sus notas"</item>
+</string-array>
+</resources>

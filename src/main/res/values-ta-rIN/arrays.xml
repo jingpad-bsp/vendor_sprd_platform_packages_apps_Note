@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<string-array name="delete_folder_entries">
+<item>"ஃபோல்டர் மட்டும் நீக்கவும்"</item>
+<item>"ஃபோல்டர் மற்றும் அதிலுள்ள அனைத்து குறிப்புகளையும் நீக்கவும்"</item>
+</string-array>
+</resources>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<string-array name="delete_folder_entries">
+<item>"ဖိုင်တွဲကိုသာ ဖျက်ပါ"</item>
+<item>"ဖိုင်တွဲနှင့် ၎င်းထဲရှိ မှတ်စုအားလုံးကို ဖျက်ပါ"</item>
+</string-array>
+</resources>

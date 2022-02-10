@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<string-array name="delete_folder_entries">
+<item>"फोल्डरलाई मात्र मेटाउनुहोस्"</item>
+<item>"फोल्डर र त्योभित्र रहेका सबै नोटहरू मेटज्ञउनुहोस्"</item>
+</string-array>
+</resources>

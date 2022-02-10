@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="delete_folder_entries">
+        <item>Only delete folder</item>
+        <item>Delete folder and all the notes in it</item>
+    </string-array>
+</resources>

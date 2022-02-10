@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="delete_folder_entries">
+        <item>仅删除文件夹</item>
+        <item>删除文件夹及包含的所有记事</item>
+    </string-array>
+</resources>

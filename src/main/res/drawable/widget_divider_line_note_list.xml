@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--<layer-list xmlns:android="http://schemas.android.com/apk/res/android" >
+   &lt;!&ndash; <item
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp">
+        <shape android:shape="rectangle" >
+            <solid android:color="#33ffffff" />
+        </shape>
+    </item>&ndash;&gt;
+
+    preference_category_color
+</layer-list>-->
+
+<inset xmlns:android="http://schemas.android.com/apk/res/android"
+android:insetLeft="24dp"
+android:insetRight="0dp"
+android:drawable="@color/divider_color">
+</inset>

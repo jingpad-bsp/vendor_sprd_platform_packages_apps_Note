@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<string-array name="delete_folder_entries">
+<item>"ફક્ત ફોલ્ડર નાબૂદ કરો"</item>
+<item>"ફોલ્ડર અને તેમા રહેલી તમામ નોંધો નાબૂદ કરો"</item>
+</string-array>
+</resources>

@@ -1,0 +1,113 @@
+<resources>
+    <string name="app_name">Note</string>
+    <string name="picture_title">Picture Note</string>
+    <string name="note_editor">Note Editor</string>
+    <string name="empty_prompt">Make a new note, click plus button.</string>
+    <string name="title_search">Search</string>
+    <string name="error_permissions">The app does not have critical permissions needed to run. Please check your permissions settings.</string>
+    <string name="sqlite_full">Data of note save failed, disk is full!</string>
+    <string name="default_folder">Default</string>
+    <string name="custom_folder">Custom</string>
+    <string name="folder">Folder</string>
+    <string name="all_notes">All Notes</string>
+    <string name="lastest_delete">Latest Delete</string>
+    <string name="my_favorite">My Favorite</string>
+    <string name="private_note">Private Notes</string>
+    <string name="add_folder">New Folder</string>
+    <string name="folder_name">Folder name</string>
+    <string name="name_conflict">Folder name conflict</string>
+    <string name="add_fail">New Folder fail</string>
+    <string name="badname_endwith_point">The end of the folder name can not be with .</string>
+    <string name="badname_as_point">Should not be named as /,\\,. or .., that may confuse with your file system</string>
+    <string name="msg_folder_input_empty">Folder name is empty</string>
+    <string name="rename">Rename folder</string>
+    <string name="delete">Delete folder</string>
+    <string name="unselect_all">Deselect all</string>
+    <!--Note editor menu tips-->
+    <string name="delete_tip">Delete</string>
+    <string name="text_share_tip">Share as a Text</string>
+    <string name="picture_share_tip">Share as an Image</string>
+    <string name="favorite_tip">favorite</string>
+
+    <string name="next">Next</string>
+    <string name="clear">Clear</string>
+    <string name="enter_pwd_hint">Please enter four passwords</string>
+    <string name="enter_pwd_again_hint">Please enter four passwords again</string>
+    <string name="enter_pwd_not_equal">Two input password is not the same</string>
+    <string name="enter_security_quest">Please enter question</string>
+    <string name="enter_security_answer">Please enter answer</string>
+    <string name="security_quest_title">Please enter security question</string>
+    <string name="security_quest_subtitle">This security answer will be the only for finding password</string>
+    <string name="set_password">Set password</string>
+    <string name="text_too_long">Input text should be less than 14</string>
+    <string name="text_too_long_for_quest">Input text should be less than 50</string>
+    <string name="done">Done</string>
+    <string name="forget_pwd">Forget Password?</string>
+    <string name="enter_pwd">Please enter password</string>
+    <string name="wrong_pwd">Wrong password</string>
+    <string name="answer_quest_title">Please answer the question:</string>
+    <string name="input_answer_hint">Please enter security answer</string>
+    <string name="find_pwd">Find password</string>
+    <string name="error_answer">Wrong answer\nClick clear button will unlock password, all the private notes will be destroyed</string>
+    <string name="clear_private">Clear private notes</string>
+    <string name="clear_warning_text">All private notes will be deleted, and unrecoverable！</string>
+    <string name="set_password_done">Set password done,and enter private folder！</string>
+    <string name="share">Share</string>
+    <string name="share_title_key">Title: </string>
+    <string name="share_content_key">Content: </string>
+
+    <!--Note list operator menu tips for lastest delete.-->
+    <string name="note_move">Move</string>
+    <string name="note_recovery">Recovery</string>
+
+    <string name="move">Move</string>
+    <string name="movetoFolder">Move to Folder</string>
+    <string name="moving">Moving, please wait!</string>
+
+    <string name="Ok">OK</string>
+    <string name="Cancel">Cancel</string>
+    <string name="Quit">Quit</string>
+    <string name="prompt">Prompt</string>
+    <string name="delete_selected_items">Are you sure to delete?</string>
+    <string name="delete_selected_item">Are you sure to delete?</string>
+    <string name="save_success">Saved Successfully</string>
+    <string name="update_sucess">Updated Successfully</string>
+    <string name="Deleting">Deleting, please wait！</string>
+    <string name="selected_is_empty">Selected empty, operation failed!</string>
+    <string name="recovery_sucess">Recovered Successfully</string>
+    <string name="not_support_image">Please choose position to insert image</string>
+    <string name="empty_conent_tip">Content is empty, please write something!</string>
+    <string name="create_tip_in_favorite">Must make a favorite Note in My Favorite.</string>
+    <string name="get_picture_failed">Failed to get photo</string>
+    <string name="valid_folder_null">Valid Folders is 0</string>
+    <string name="not_support_multiline_todo">Not support add todo list in multi_line mode.</string>
+    <string name="selected_image_failed">Picture is not available</string>
+    <string name="content_image">"Image.jpg"</string>
+    <string name="today">Today</string>
+    <!-- custom editText menu -->
+    <string name="tel">Call</string>
+    <string name="web">Browse web </string>
+    <string name="email">Send email</string>
+    <string name="note_link_other">Open map</string>
+    <string name="select_all">Select all</string>
+
+    <string name="query_hint">Search current folder</string>
+    <string name="empty_search_prompt">No related items.</string>
+    <string name="todo_shared">TODO:  </string>
+    <string name="delete_forever">Delete permanently</string>
+    <string name="delete_forever_tip">Are you sure to delete permanently? </string>
+    <string name="cancel_tip">Are you sure to cancel edit?</string>
+    <string name="save_fail">Saved fail</string>
+    <string name="text_find_pwd_success">Find password success</string>
+    <string name="cancel_menu">Cancel editing</string>
+    <string name="recycle_tip">Deleted notes, 30 days overdue automatically deleted!</string>
+    <string name="create_picture">Creating image, please wait!</string>
+    <string name="shared_picture_tip">Creating image</string>
+    <string name="save_picture_failed">Save as picture failed</string>
+    <string name="permission_tip">No Camera permission. You can change permissions in Settings or restart the app.</string>
+    <string name="no_activity">Not found proper activity</string>
+    <string name="pic_large">The picture is too large to insert</string>
+    <string name="picture_add_fail">Achieved the limited number of pictures</string>
+    <string name="input_limit">The content up to the max length</string>
+    <string name="shared_pic_large">The picture is too large to share</string>
+</resources>

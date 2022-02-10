@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<string-array name="delete_folder_entries">
+<item>"କେବଳ ଫୋଲ୍ଡର ହଟାନ୍ତୁ"</item>
+<item>"କେବଳ ଫୋଲ୍ଡର ହଟାନ୍ତୁ ଏବଂ ଏଥିରେ ଥିବା ସମସ୍ତ ନୋଟ"</item>
+</string-array>
+</resources>

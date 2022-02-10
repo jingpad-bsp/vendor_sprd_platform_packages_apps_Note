@@ -1,0 +1,11 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+    <color name="black_in_note">#6c6c6c</color>
+
+    <dimen name="widget_header_height">48dp</dimen>
+    <dimen name="widget_header_new_conv_button_width">48dp</dimen>
+    <dimen name="rowHeight">64dp</dimen>
+    <dimen name="categoryHeight">32dp</dimen>
+</resources>

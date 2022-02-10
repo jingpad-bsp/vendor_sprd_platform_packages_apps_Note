@@ -1,0 +1,50 @@
+<resources>
+    <!--xmlns:tools="http://schemas.android.com/tools"-->
+    <style name="AppTheme" parent="Theme.AppCompat.DayNight.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/statusbar_color</item>
+        <item name="colorPrimaryDark">@color/statusbar_color</item>
+        <item name="colorAccent">@color/statusbar_color</item>
+    </style>
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:statusBarColor">@color/statusbar_color</item>
+    </style>
+    <style name="FolderTheme" parent="Theme.AppCompat.DayNight.DarkActionBar">
+        <item name="colorPrimary">@color/actionbar_color</item>
+        <item name="colorPrimaryDark">@color/actionbar_color</item>
+        <item name="colorAccent">@color/actionbar_color</item>
+        <item name="android:statusBarColor">@color/statusbar_color</item>
+        <item name="android:actionMenuTextAppearance">@style/MenuTextStyle</item>
+        <item name="android:windowBackground">@color/widget_conversation_title_color</item>
+        <item name="android:colorControlHighlight">#33000000</item>
+        <item name="android:colorMultiSelectHighlight">@color/actionbar_color</item>
+        <item name="android:colorControlActivated">@color/actionbar_color</item>
+    </style>
+    <style name="MenuTextStyle">
+        <item name="android:textSize">14dp</item>
+        <item name="android:textColor">@drawable/actionbar_text</item>
+    </style>
+    <style name="FolderDialog" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <item name="android:backgroundTint">@color/widget_conversation_title_color</item>
+        <item name="colorPrimary">@color/actionbar_color</item>
+        <item name="colorPrimaryDark">@color/actionbar_color</item>
+        <item name="colorAccent">@color/actionbar_color</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="WidgetTitle" parent="@android:style/TextAppearance.Holo.Widget.ActionBar.Title">
+    <item name="android:textColor">@color/title_color</item>
+    <item name="android:singleLine">true</item>
+    <item name="android:layout_marginEnd">8dp</item>
+    </style>
+
+    <!--style name="CustomCheckBoxTheme" parent="@android:style/Widget.CompoundButton.CheckBox">
+        <item name="android:button">@drawable/checkbox_style</item>
+    </style-->
+
+</resources>

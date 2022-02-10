@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Keyboard xmlns:android="http://schemas.android.com/apk/res/android" android:keyWidth="33.3%p" android:horizontalGap="0px" android:verticalGap="0px" android:keyHeight="60dp">
+    <Row>
+        <Key android:codes="1" android:keyIcon="@drawable/letter_1"/>
+        <Key android:codes="2" android:keyIcon="@drawable/letter_2"/>
+        <Key android:codes="3" android:keyIcon="@drawable/letter_3"/>
+    </Row>
+    <Row>
+        <Key android:codes="4" android:keyIcon="@drawable/letter_4"/>
+        <Key android:codes="5" android:keyIcon="@drawable/letter_5"/>
+        <Key android:codes="6" android:keyIcon="@drawable/letter_6"/>
+    </Row>
+    <Row>
+        <Key android:codes="7" android:keyIcon="@drawable/letter_7"/>
+        <Key android:codes="8" android:keyIcon="@drawable/letter_8"/>
+        <Key android:codes="9" android:keyIcon="@drawable/letter_9"/>
+    </Row>
+    <Row android:keyWidth="33.3%p">
+        <Key android:codes="200" android:keyLabel=""/>
+        <Key android:codes="0" android:keyIcon="@drawable/letter_0"/>
+        <Key android:codes="-5" android:keyIcon="@drawable/keyboard_delete" android:isRepeatable="true"/>
+    </Row>
+</Keyboard>

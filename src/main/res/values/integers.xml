@@ -1,0 +1,5 @@
+<resources>
+    <integer name="listview_tag_1">0</integer>
+    <integer name="listview_tag_2">1</integer>
+    <integer name="limit_folder_note">50</integer>
+</resources>

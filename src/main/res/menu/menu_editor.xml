@@ -1,0 +1,42 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.sprd.sprdnote.NoteEditorActivity">
+   <!--modifeid for bug 712154:start -->
+    <item
+        android:id="@+id/action_favorite"
+        android:title="@string/favorite_tip"
+        android:icon="@drawable/btn_star_off_normal_holo_light"
+        android:orderInCategory="100"
+        app:showAsAction="always" />
+   <!--modifeid for bug 712154:end -->
+    <item
+        android:id="@+id/action_cancel"
+        android:orderInCategory="100"
+        android:title="@string/cancel_menu"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_del"
+        android:orderInCategory="100"
+        android:title="@string/delete_tip"
+        app:showAsAction="never" />
+
+    <item
+    android:id="@+id/action_text_share"
+    android:orderInCategory="100"
+    android:title="@string/text_share_tip"
+    app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_picture_share"
+        android:orderInCategory="100"
+        android:title="@string/picture_share_tip"
+        app:showAsAction="never" />
+    <!--item
+        android:id="@+id/action_send_desktop"
+        android:orderInCategory="100"
+        android:title="@string/send_desktop_tip"
+        app:showAsAction="never" /-->
+
+</menu>

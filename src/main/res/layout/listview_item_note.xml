@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/listview_linearlayout"
+    android:layout_width="wrap_content"
+    android:layout_height="80dp"
+    android:paddingStart="19dp"
+     >
+    <RelativeLayout
+        android:id="@+id/date_time"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="13dp"
+        >
+        <!--UNISOC: Modify for bug 1222730 START-->
+        <TextView
+            android:id="@+id/note_time"
+            android:layout_width="wrap_content"
+            android:layout_height="22dp"
+            android:layout_alignParentStart="true"
+            android:textColor="@color/time_color"
+            android:gravity="center_vertical"
+            android:textSize="14sp" />
+        <!--END-->
+        <ImageView
+            android:id="@+id/picture"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_marginEnd="16dp"
+            android:layout_alignParentEnd="true"
+            android:src="@drawable/ic_picture"
+            android:visibility="gone"
+            />
+        <ImageView
+            android:id="@+id/favorite"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_marginEnd="5dp"
+            android:layout_toStartOf="@+id/picture"
+            android:src="@drawable/ic_star"
+            android:visibility="gone"
+            />
+        <ImageView
+            android:id="@+id/favorite2"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_marginEnd="17dp"
+            android:layout_alignParentEnd="true"
+            android:src="@drawable/ic_star"
+            android:visibility="gone"
+            />
+        <ImageView
+            android:id="@+id/agency"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_toStartOf="@+id/favorite"
+            android:src="@drawable/ic_ab_search_delete"
+            android:visibility="gone"
+            />
+    </RelativeLayout>
+
+   <TextView
+        android:id="@+id/note_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/date_time"
+        android:layout_marginTop="7dp"
+        android:paddingEnd="17dp"
+        android:layout_marginBottom="15dp"
+        android:ellipsize="end"
+        android:textAlignment="viewStart"
+        android:maxLines="1"
+        android:textColor="@color/note_title_color"
+        android:textSize="16sp"
+       />
+
+    <CheckBox
+        android:id="@+id/check"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_alignParentEnd="true"
+        android:layout_centerVertical="true"
+        android:layout_marginEnd="4dp"
+        android:checked="false"
+        android:clickable="false"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        android:visibility="gone" />
+<!--style="@style/CustomCheckBoxTheme"-->
+</RelativeLayout>

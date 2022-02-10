@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    <ListView
+        android:id="@+id/page_list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="?attr/actionBarSize"
+        android:divider="@drawable/list_divider_line_note_list"
+        android:scrollbars="none"
+        android:fadeScrollbars="false"
+        android:dividerHeight="1px"
+       />
+    <LinearLayout
+        android:id="@+id/note_empty_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:visibility="gone"
+        android:orientation="vertical" >
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:src="@drawable/note_empty" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dip"
+            android:gravity="center_horizontal"
+            android:visibility="gone"
+            android:text="@string/empty_prompt"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="@color/empty_note_tips_color"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/note_empty_search"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:visibility="gone"
+        android:orientation="vertical" >
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:src="@drawable/note_empty" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dip"
+            android:visibility="gone"
+            android:gravity="center_horizontal"
+            android:text="@string/empty_search_prompt"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="@color/empty_note_tips_color"/>
+        </LinearLayout>
+    <!--?android:attr/textColorSecondary
+     -->
+</LinearLayout>

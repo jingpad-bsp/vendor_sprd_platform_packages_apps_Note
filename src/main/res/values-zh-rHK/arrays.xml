@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="delete_folder_entries">
+        <item>僅刪除資料夾</item>
+        <item>刪除資料夾及包含的所有記事</item>
+    </string-array>
+</resources>

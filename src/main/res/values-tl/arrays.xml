@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<string-array name="delete_folder_entries">
+<item>"I-delete lang ang folder"</item>
+<item>"I-delete ang folder at lahat ng talang nasa loob nito"</item>
+</string-array>
+</resources>

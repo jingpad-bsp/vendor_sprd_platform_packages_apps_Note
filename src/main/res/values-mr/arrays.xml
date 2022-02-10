@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<string-array name="delete_folder_entries">
+<item>"फक्त फोल्डर काढून टाका"</item>
+<item>"फोल्डर आणि त्यातील सर्व नोट्स काढून टाका"</item>
+</string-array>
+</resources>

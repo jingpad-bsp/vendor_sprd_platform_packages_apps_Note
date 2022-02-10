@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<string-array name="delete_folder_entries">
+<item>"ഫോൾഡർ മാത്രം ഇല്ലാതാക്കുക"</item>
+<item>"ഫോൾഡറും അതിലെ എല്ലാ കുറിപ്പുകളും ഇല്ലാതാക്കുക"</item>
+</string-array>
+</resources>

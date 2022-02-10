@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingTop="1dp"
+    android:paddingStart="?android:attr/listPreferredItemPaddingStart"
+    android:paddingEnd="?android:attr/listPreferredItemPaddingEnd">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="56sp"
+        android:singleLine="true"
+        android:ellipsize="end"
+        android:id="@android:id/title"
+        android:textAppearance="?android:attr/textAppearanceListItem"
+        android:layout_alignParentStart="true"
+        android:gravity="center_vertical"/>
+</RelativeLayout>

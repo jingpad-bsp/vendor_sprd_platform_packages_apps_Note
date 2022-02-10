@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="statusbar_color">#1A1F22</color>
+    <color name="actionbar_color">#1A1F22</color>
+
+    <color name="preference_category_color">#FFFFFF</color>
+
+    <color name="note_year_color">#212121</color>
+
+    <color name="bg_color">#000000</color>
+    <color name="note_title_color">#FFFFFF</color>
+    <color name="window_bg">#000000</color>
+    <color name="security_bg_color">#000000</color>
+    <color name="divider_color">#FFFFFF</color>
+    <color name="black_in_note">#FFFFFF</color>
+    <color name="time_color">#FFFFFF</color>
+    <color name="widget_background_color">#000000</color>
+    <color name="controll_color">#000000</color>
+    <color name="actionbar_color_text">#83c13d</color>
+    <color name="edit_yellow">#C6C7B9</color>
+    <color name="edit_red">#D9CAD1</color>
+    <color name="edit_blue">#D4DBE1</color>
+    <color name="edit_green">#CAD7CB</color>
+    <color name="edit_white">#000000</color>
+</resources>
